@@ -12,19 +12,29 @@ format:
 engine: jupyter
 ---
 
+```{python}
+import sys
+print(sys.executable)
+
+
+```
 
 ```{python}
 #| echo: false
 #| message: false
 import altair as alt
 from vega_datasets import data
-from palmerpenguins import load_penguins
-from plotnine import *
-from plotnine.data import diamonds, mpg
+#from palmerpenguins import load_penguins
+#from plotnine import *
+#from plotnine.data import diamonds, mpg
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+#import matplotlib.pyplot as plt
+#import matplotlib.image as mpimg
+```
+
+```{python}
+from palmerpenguins import load_penguins
 ```
 
 
